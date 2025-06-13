@@ -11,8 +11,8 @@ class RunnerGameApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Runner Game',
-      debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
+      debugShowCheckedModeBanner: false,
       home: const HomeScreen(),
     );
   }
@@ -27,8 +27,8 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(title: const Text('Runner Game')),
       body: const Center(
         child: Text(
-          '🚀 Runner Game will launch here!',
-          style: TextStyle(fontSize: 20),
+          '🚀 Runner Game Loaded!',
+          style: TextStyle(fontSize: 22),
         ),
       ),
     );
